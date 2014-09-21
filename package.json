@@ -1,0 +1,42 @@
+{
+  "name": "download-watcher",
+  "version": "0.0.0",
+  "main": "lib/download-watcher.js",
+  "description": "Automatic sorter for Download directory",
+  "homepage": "https://github.com/soltys/download-watcher",
+  "bugs": "https://github.com/soltys/download-watcher/issues",
+  "author": {
+    "name": "Pawel Soltysiak",
+    "email": "soltys@uznam.org",
+    "url": "http://about.me/pawel.soltysiak"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soltys/download-watcher"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "download-watcher",
+    ""
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "download-watcher": "cli.js"
+  },
+  "preferGlobal": "true"
+}
